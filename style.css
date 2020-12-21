@@ -1,0 +1,122 @@
+*{
+    padding: 0;
+    margin: 0;
+   
+    
+}
+  
+body{
+    background-image: linear-gradient( rgba(105, 199, 62, 0.267),rgba(5, 5, 5, 0.623)),url(hck.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.full-form{
+    border: 1px solid rgba(79, 235, 73, 0.459);
+    width: 450px;
+    height: 400px;
+    text-align: center;
+    position: relative;
+    top: 120px;
+    left: 420px;
+    border-radius: 100px 100px;
+    box-shadow: 2px 2px 65px rgba(60, 167, 194, 0.972);
+}
+
+.this-hdt  h1{
+     position: relative;
+     top: 80px;
+     display: inline-block;
+    color: white;
+    border-bottom: 3px solid rgb(74, 180, 74);
+    font-size: 45px;
+    font-family: sans-serif;
+   
+}
+
+form{
+    position: relative;
+    top: 110px;
+}
+
+.this-input{
+    font-size: 22px;
+    color:rgba(98, 233, 233, 0.89);
+   
+}
+
+input{
+    padding: 5px 20px;
+    text-align: center;
+    outline: none;
+    background: none;
+    border-radius: 25px 25px;
+    border: 1px solid rgba(98, 233, 233, 0.89);
+    color: white;
+}
+input:hover{
+    border: 1px solid rgba(98, 233, 233, 0.89);
+    box-shadow: 2px 2px 16px rgba(98, 233, 233, 0.89);
+    padding: 5px 30px;
+    border-radius: 25px 25px;
+    transition: .5s;
+}
+
+span input{
+    animation: animate 2s linear infinite;
+}
+
+
+span input:nth-child(1)
+{
+               animation-delay: 0s;
+}
+
+
+
+@keyframes animate
+{
+    0%,100%
+    {
+             color: rgb(43, 174, 197);
+             filter: blur(2px);
+             text-shadow: 0 0 10px #fdfdfd,
+                      
+
+    }
+    5%,95%
+    {
+             color: rgb(255, 255, 255);
+             filter: blur(0px);
+             text-shadow: none,
+    }
+}
+
+.this-button{
+   background: rgba(74, 180, 74, 0.904);
+   padding: 5px 35px;
+   text-decoration: none;
+   font-size: 17px;
+   color: rgb(0, 0, 0);
+   position: relative;
+   left: 10px;
+   border-radius: 25px 25px;
+   font-family: sans-serif;
+}
+.this-button:hover{
+    background: rgb(236, 30, 30);
+    transition: .2s;
+    padding: 5px 40px;
+    color: white;
+    box-shadow: 2px 2px 16px red;
+}
+
+p{
+    color: rgba(255, 255, 255, 0.993);
+    margin-top: 138px;
+    margin-left: 553px;
+    border-bottom: 2px solid rgba(255, 0, 0, 0.548);
+    display: inline-block;
+    
+}
